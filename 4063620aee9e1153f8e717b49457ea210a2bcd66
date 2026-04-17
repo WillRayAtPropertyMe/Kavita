@@ -1,0 +1,57 @@
+UI/Web/src/app/_pipes/sort-field.pipe.ts
+  17d4924774822931 76-77
+API/DTOs/Filtering/SortField.cs
+  17d4924774822931 45-48
+UI/Web/src/assets/langs/en.json
+  17d4924774822931 2477
+API/Extensions/QueryExtensions/Filtering/SeriesSort.cs
+  17d4924774822931 4,43-47
+UI/Web/src/app/_models/metadata/series-filter.ts
+  17d4924774822931 28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.0",
+  "base_commit_sha": "4063620aee9e1153f8e717b49457ea210a2bcd66",
+  "prompts": {
+    "0f171add29c7bbbf": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "f3da0179-99e2-4d8f-8991-161bf6155c94",
+        "model": "copilot/claude-sonnet-4.5"
+      },
+      "human_author": "Will Ray",
+      "messages": [],
+      "total_additions": 436,
+      "total_deletions": 0,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    },
+    "17d4924774822931": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "0f3c7817-af1b-4486-b9cb-eb9800e3d023",
+        "model": "copilot/claude-sonnet-4.5"
+      },
+      "human_author": "Will Ray",
+      "messages": [],
+      "total_additions": 14,
+      "total_deletions": 442,
+      "accepted_lines": 3989,
+      "overriden_lines": 0
+    },
+    "4e1633be23ca8dab": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "e6f63729-844a-4ef7-b429-d7bcb96c07bf",
+        "model": "copilot/claude-sonnet-4.5"
+      },
+      "human_author": "Will Ray",
+      "messages": [],
+      "total_additions": 55,
+      "total_deletions": 49,
+      "accepted_lines": 49,
+      "overriden_lines": 0
+    }
+  }
+}
