@@ -1,0 +1,14 @@
+API/Properties/launchSettings.json
+  h_1cc4325619da43 22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.7",
+  "base_commit_sha": "20a7fa964d91c9f9ae02cb8848a49df965c393aa",
+  "prompts": {},
+  "humans": {
+    "h_1cc4325619da43": {
+      "author": "Will Ray <willray@propertyme.com>"
+    }
+  }
+}
