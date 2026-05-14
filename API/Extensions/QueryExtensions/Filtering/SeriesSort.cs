@@ -38,7 +38,6 @@ public static class SeriesSort
                 .Where(p => p.SeriesId == s.Id).Average(p => p.AverageScore), sortOptions),
             SortField.UserRating => query.DoOrderBy(s => s.Ratings.Where(r => r.SeriesId == s.Id && r.AppUserId == userId).Max(r => r.Rating), sortOptions)
                 .ThenBy(s => s.SortName.ToLower()),
-            SortField.Writer => query.DoOrderBy(s => s.Writer, sortOptions),
             SortField.Random => query.DoOrderBy(s => EF.Functions.Random(), sortOptions),
             _ => query
         };
