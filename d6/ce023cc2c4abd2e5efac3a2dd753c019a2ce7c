@@ -1,0 +1,22 @@
+.vscode/launch.json
+  s_b60c971fb3d1a2::t_1da755a0910916 12
+  s_b60c971fb3d1a2::t_c8435519addbe1 7-11,13-22
+.vscode/tasks.json
+  s_b60c971fb3d1a2::t_869f6c775ba537 1-17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.8",
+  "base_commit_sha": "d6ce023cc2c4abd2e5efac3a2dd753c019a2ce7c",
+  "prompts": {},
+  "sessions": {
+    "s_b60c971fb3d1a2": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "29025b27-90d2-4c8f-9ca0-781efe58c9fe",
+        "model": "gpt-4.1"
+      },
+      "human_author": "Will Ray <willray@propertyme.com>"
+    }
+  }
+}
