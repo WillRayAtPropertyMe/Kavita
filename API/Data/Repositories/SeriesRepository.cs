@@ -1006,6 +1006,7 @@ public class SeriesRepository : ISeriesRepository
         query = filter.SortOptions.SortField switch
         {
             SortField.SortName => query.DoOrderBy(s => s.SortName.ToLower(), filter.SortOptions),
+
             SortField.CreatedDate => query.DoOrderBy(s => s.Created, filter.SortOptions),
             SortField.LastModifiedDate => query.DoOrderBy(s => s.LastModified, filter.SortOptions),
             SortField.LastChapterAdded => query.DoOrderBy(s => s.LastChapterAdded, filter.SortOptions),
@@ -1014,6 +1015,7 @@ public class SeriesRepository : ISeriesRepository
             SortField.ReadProgress => query.DoOrderBy(s => s.Progress.Where(p => p.SeriesId == s.Id).Select(p => p.LastModified).Max(), filter.SortOptions),
             SortField.AverageRating => query.DoOrderBy(s => s.ExternalSeriesMetadata.ExternalRatings
                 .Where(p => p.SeriesId == s.Id).Average(p => p.AverageScore), filter.SortOptions),
+            SortField.Writer => query.DoOrderBy(s => s.Writer, filter.SortOptions),
             _ => query
         };
 

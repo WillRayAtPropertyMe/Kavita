@@ -43,6 +43,8 @@ public enum SortField
     /// </summary>
     UserRating = 10,
 
+    Writer = 11
+
 }
 
 public enum AnnotationSortField

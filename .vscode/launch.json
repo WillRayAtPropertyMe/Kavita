@@ -26,6 +26,12 @@
       "name": "Launch Chrome against localhost",
       "url": "http://localhost:5000",
       "webRoot": "${workspaceFolder}"
+    },
+    {
+        "name": ".NET Core Attach",
+        "type": "coreclr",
+        "request": "attach",
+        "processId":"${command:pickProcess}"
     }
   ]
 }
